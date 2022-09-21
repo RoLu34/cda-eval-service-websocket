@@ -5,7 +5,8 @@
   "description": "",
   "main": "minisocket.js",
   "scripts": {
-    "start": "node minisocket"
+    "start": "node minisocket",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "axios": "^0.27.2",
     "ip": "^1.1.8",
     "ws": "^8.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
   }
 }
