@@ -2,7 +2,7 @@ import  {WebSocketServer} from 'ws';
 import messageDispatcher from "./src/messageDispatcher.js";
 import ip from "ip"
 
-const wss = new WebSocketServer({ port: 8080 });
+const wss = new WebSocketServer({ port: 3000 });
 
 console.log(ip.address())
 
